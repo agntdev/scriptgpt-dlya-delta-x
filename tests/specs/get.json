@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/get \u003cname\u003e",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Retrieve specific saved script by name"
+            }
+          }
+        ],
+        "send": {
+          "text": "/get"
+        }
+      }
+    ]
+  }
+]
