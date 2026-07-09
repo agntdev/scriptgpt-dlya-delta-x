@@ -1,0 +1,20 @@
+[
+  {
+    "name": "сохранить \u003cимя\u003e",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Save last returned script with specified name"
+            }
+          }
+        ],
+        "send": {
+          "text": "/сохранить"
+        }
+      }
+    ]
+  }
+]
